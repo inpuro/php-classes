@@ -4,10 +4,10 @@ namespace Inpuro\DB;
 
 class Sql {
 
-	const HOSTNAME = "127.0.0.1";
-	const USERNAME = "root";
-	const PASSWORD = "root";
-	const DBNAME = "db_ecommerce";
+	const HOSTNAME = "localhost";
+	const USERNAME = "DB_USER";
+	const PASSWORD = "DB_SENHA";
+	const DBNAME = "DB_NOME";
 
 	private $conn;
 
